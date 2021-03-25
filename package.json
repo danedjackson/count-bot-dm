@@ -1,0 +1,28 @@
+{
+  "name": "count-bot-dm",
+  "version": "1.0.0",
+  "description": "DM count bot for New beginnings",
+  "main": "bot.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node": "^15.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danedjackson/count-bot-dm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danedjackson/count-bot-dm/issues"
+  },
+  "homepage": "https://github.com/danedjackson/count-bot-dm#readme"
+}
