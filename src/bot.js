@@ -39,7 +39,7 @@ function serverCountLoop() {
 
 //APIs
 async function getServerCount() {
-    return await axios.get("https://server-count.herokuapp.com/serv-count/dm")
+    return await axios.get("https://temp-server-count.herokuapp.com/serv-count/dm")
         .then(function (response){
             serverCount = response.data;
         })
